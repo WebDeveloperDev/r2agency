@@ -20,4 +20,7 @@ router.get('/about',(req,res)=>{
 router.get('/services',(req,res)=>{
    res.sendfile('services.html')
 })
+router.get('/google647198defbe41f61',(req,res)=>{
+   res.sendfile('google647198defbe41f61.html')
+})
 module.exports=router;
